@@ -1,50 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-01-22T17:14:57.515496" rpa="false" schemaversion="5">
-<suite id="s1" name="Iframe" source="D:\New Framework\Scripts\iframe.robot">
-<test id="s1-t1" name="Iframe" line="9">
+<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-01-24T17:55:28.854857" rpa="false" schemaversion="5">
+<suite id="s1" name="Katalon" source="D:\New Framework\Scripts\Katalon.robot">
+<test id="s1-t1" name="KatalonStudio with Page Object Concept" line="12">
+<kw name="Read Xml" owner="Support">
+<msg time="2025-01-24T17:55:29.164881" level="INFO">${URL} = https://katalon.com/</msg>
+<var>${URL}</var>
+<arg>applicationurl</arg>
+<status status="PASS" start="2025-01-24T17:55:29.160010" elapsed="0.004871"/>
+</kw>
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-01-22T17:14:57.714502" level="INFO">Opening browser 'chrome' to base url 'https://demo.automationtesting.in/Frames.html'.</msg>
+<msg time="2025-01-24T17:55:29.165925" level="INFO">Opening browser 'chrome' to base url 'https://katalon.com/'.</msg>
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-01-22T17:14:57.714502" elapsed="2.623025"/>
+<status status="PASS" start="2025-01-24T17:55:29.165925" elapsed="8.964956"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-01-22T17:15:03.337888" level="INFO">Slept 3 seconds.</msg>
+<msg time="2025-01-24T17:55:41.132185" level="INFO">Slept 3 seconds.</msg>
 <arg>3 seconds</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-01-22T17:15:00.337527" elapsed="3.000361"/>
+<status status="PASS" start="2025-01-24T17:55:38.131872" elapsed="3.000313"/>
 </kw>
-<kw name="Select Frame" owner="SeleniumLibrary">
-<msg time="2025-01-22T17:15:03.338876" level="INFO">Selecting frame 'id:singleframe'.</msg>
-<arg>id:singleframe</arg>
-<doc>Sets frame identified by ``locator`` as the current frame.</doc>
-<status status="PASS" start="2025-01-22T17:15:03.338876" elapsed="0.026910"/>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-01-24T17:55:41.133665" elapsed="0.103630"/>
 </kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-01-22T17:15:03.366783" level="INFO">Typing text 'Testing' into text field '//input[@type='text']'.</msg>
-<arg>//input[@type='text']</arg>
-<arg>Testing</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-22T17:15:03.365786" elapsed="0.094679"/>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2025-01-24T17:55:41.287128" level="INFO">Element '(//img[@alt='Katalon Logo'])[1]' is displayed.</msg>
+<arg>${katalon_logo}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2025-01-24T17:55:41.237295" elapsed="0.050832"/>
 </kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-01-22T17:15:08.462734" level="INFO">Slept 5 seconds.</msg>
-<arg>5</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-01-22T17:15:03.461464" elapsed="5.001270"/>
-</kw>
-<kw name="Unselect Frame" owner="SeleniumLibrary">
-<doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" start="2025-01-22T17:15:08.462734" elapsed="0.002965"/>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-01-24T17:55:41.289122" level="INFO">Logo is Visible</msg>
+<arg>Logo is Visible</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-01-24T17:55:41.289122" elapsed="0.000000"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-01-22T17:15:08.466697" elapsed="2.196567"/>
+<status status="PASS" start="2025-01-24T17:55:41.290122" elapsed="2.255354"/>
 </kw>
-<status status="PASS" start="2025-01-22T17:14:57.713505" elapsed="12.950679"/>
+<status status="PASS" start="2025-01-24T17:55:29.160010" elapsed="14.386469"/>
 </test>
-<status status="PASS" start="2025-01-22T17:14:57.517487" elapsed="13.147694"/>
+<status status="PASS" start="2025-01-24T17:55:28.855794" elapsed="14.692721"/>
 </suite>
 <statistics>
 <total>
@@ -53,7 +52,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Iframe">Iframe</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Katalon">Katalon</stat>
 </suite>
 </statistics>
 <errors>
