@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-01-22T17:51:23.169778" rpa="false" schemaversion="5">
+<suite id="s1" name="Tags" source="D:\New Framework\Scripts\Tags.robot">
+<test id="s1-t1" name="test Case 6" line="27">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-01-22T17:51:23.199192" level="INFO">This is test case 5</msg>
+<arg>This is test case 5</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-01-22T17:51:23.199192" elapsed="0.000000"/>
+</kw>
+<tag>Shaily</tag>
+<status status="PASS" start="2025-01-22T17:51:23.198565" elapsed="0.001464"/>
+</test>
+<doc>Tags in Robot Framework</doc>
+<status status="PASS" start="2025-01-22T17:51:23.170775" elapsed="0.030567"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Shaily</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tags">Tags</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
